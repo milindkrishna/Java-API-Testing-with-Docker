@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-14T19:50:31 IST" name="API Test Suite" finished-at="2025-11-14T19:50:41 IST" duration-ms="10434">
+    <groups>
+    </groups>
+    <test started-at="2025-11-14T19:50:31 IST" name="API Tests" finished-at="2025-11-14T19:50:41 IST" duration-ms="10434">
+      <class name="com.automation.api.AppTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.api.AppTest@7ce3cb8e]" started-at="2025-11-14T19:50:31 IST" name="setup" finished-at="2025-11-14T19:50:32 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetListOfPosts()[pri:0, instance:com.automation.api.AppTest@7ce3cb8e]" started-at="2025-11-14T19:50:32 IST" name="testGetListOfPosts" description="Test GET request to retrieve list of posts" finished-at="2025-11-14T19:50:34 IST" duration-ms="2619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListOfPosts -->
+        <test-method signature="testGetSinglePostById()[pri:0, instance:com.automation.api.AppTest@7ce3cb8e]" started-at="2025-11-14T19:50:34 IST" name="testGetSinglePostById" description="Test GET request to retrieve single post by ID" finished-at="2025-11-14T19:50:38 IST" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSinglePostById -->
+        <test-method signature="testCreateNewPost()[pri:0, instance:com.automation.api.AppTest@7ce3cb8e]" started-at="2025-11-14T19:50:38 IST" name="testCreateNewPost" description="Test POST request to create a new post" finished-at="2025-11-14T19:50:39 IST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewPost -->
+        <test-method signature="testUpdateExistingPost()[pri:0, instance:com.automation.api.AppTest@7ce3cb8e]" started-at="2025-11-14T19:50:39 IST" name="testUpdateExistingPost" description="Test PUT request to update an existing post" finished-at="2025-11-14T19:50:41 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateExistingPost -->
+      </class> <!-- com.automation.api.AppTest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API Test Suite -->
+</testng-results>

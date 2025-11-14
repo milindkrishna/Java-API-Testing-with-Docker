@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite" parallel="false" verbose="2">
+    <test name="API Tests">
+        <classes>
+            <class name="com.automation.api.AppTest">
+                <methods>
+                    <include name="testGetListOfPosts"/>
+                    <include name="testGetSinglePostById"/>
+                    <include name="testCreateNewPost"/>
+                    <include name="testUpdateExistingPost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
