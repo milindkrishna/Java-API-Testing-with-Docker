@@ -1,0 +1,6 @@
+services:
+  testjavaapidocker:
+    build: .
+    image: milindkrishna/testjavaapidocker
+    volumes:
+      - C:\Users\Milind Krishna\Downloads\selenium_jenkins_doker\strykerapi:/app
