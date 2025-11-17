@@ -12,7 +12,9 @@ Docker Hub Integration: The Docker image is published and available at: milindkr
 
 The pre-built Docker image can be found at:
 https://hub.docker.com/repository/docker/milindkrishna/testjavaapidocker/general
-Use Case:
+
+#Use Case:
+
 This repository serves as a practical example for teams looking to:
 Implement API testing in Java
 Containerize test automation frameworks
