@@ -1,22 +1,29 @@
-# Java-API-Testing-with-Docker
+Project Overview
 
-This is a Java-based API testing project that leverages Docker containerization for test automation. The project demonstrates how to create and run automated API tests within a Docker environment, making it portable and easy to set up across different development environments.
+A comprehensive Java-based API testing framework integrated with Docker containerization and Jenkins CI/CD pipeline automation. This project demonstrates modern DevOps practices for automated API testing.
 
-#Key Features:
+Key Components:
 
-Dockerized Test Environment: The project is containerized, allowing tests to run consistently across different machines without dependency conflicts
-Java-based Testing: Built using Java for API test automation
-Docker Hub Integration: The Docker image is published and available at: milindkrishna/testjavaapidocker
+1. Java API Testing Framework
+Automated API testing written in Java
+Likely using frameworks like REST Assured, JUnit, or TestNG
 
-#Docker Image:
+2. Docker Integration
+Fully containerized test environment
+Docker image published on Docker Hub: milindkrishna/testjavaapidocker
 
-The pre-built Docker image can be found at:
-https://hub.docker.com/repository/docker/milindkrishna/testjavaapidocker/general
+Available at:
+ https://hub.docker.com/repository/docker/milindkrishna/testjavaapidocker/general
+Ensures consistent test execution across environments
 
-#Use Case:
+3. Jenkins CI/CD Pipeline (Jenkinsfile present)
+Automated build and test pipeline
+Integration with Docker for containerized test execution
+Enables continuous testing in CI/CD workflows
 
-This repository serves as a practical example for teams looking to:
-Implement API testing in Java
-Containerize test automation frameworks
-Ensure consistent test execution environments
-Integrate API tests into CI/CD pipelines using Docker.
+Benefits:
+
+Portability: Run tests anywhere Docker is available
+Consistency: Same environment across dev, test, and production
+Automation: Jenkins pipeline automates the entire test lifecycle
+Scalability: Easy to integrate into existing CI/CD infrastructure
